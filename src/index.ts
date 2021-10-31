@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
+"use strict";
 
 import inquirer from "inquirer";
 import { globby } from "globby";
