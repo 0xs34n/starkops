@@ -11,9 +11,6 @@
   <a href="https://www.npmjs.com/package/starkops">
     <img src='https://img.shields.io/npm/v/starkops' />
   </a>
-  <a href="https://bundlephobia.com/package/starkops">
-    <img src='https://img.shields.io/bundlephobia/minzip/starkops?color=success&label=size' />
-  </a>
   <a href="https://www.npmjs.com/package/starkops">
     <img src='https://img.shields.io/npm/dt/starkops?color=blueviolet' />
   </a>
