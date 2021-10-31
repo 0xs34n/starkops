@@ -91,7 +91,7 @@ async function main() {
             ui.log.write(`✅ ${fileBase} compiled.\n\n`);
           });
           ui.log.write(
-            `✅ Successfully compiled cario programs in ${artifactsDirectory}!\n`
+            `✨ Successfully compiled cario programs in ${artifactsDirectory}!\n`
           );
         } catch (error) {
           ui.log.write(`❌ ${error}`);
