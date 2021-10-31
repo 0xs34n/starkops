@@ -6,6 +6,28 @@
 <!-- tag line -->
 <h4 align='center'> StarkNet Toolchain CLI written in TypeScript.</h4>
 
+<!-- primary badges -->
+<p align="center">
+  <a href="https://www.npmjs.com/package/starkops">
+    <img src='https://img.shields.io/npm/v/starkops' />
+  </a>
+  <a href="https://bundlephobia.com/package/starkops">
+    <img src='https://img.shields.io/bundlephobia/minzip/starkops?color=success&label=size' />
+  </a>
+  <a href="https://www.npmjs.com/package/starkops">
+    <img src='https://img.shields.io/npm/dt/starkops?color=blueviolet' />
+  </a>
+  <a href="https://github.com/seanjameshan/starknet.js/blob/main/LICENSE/">
+    <img src="https://img.shields.io/badge/license-MIT-black">
+  </a>
+  <a href="https://github.com/seanjameshan/starkops/stargazers">
+    <img src='https://img.shields.io/github/stars/seanjameshan/starkops?color=yellow' />
+  </a>
+  <a href="https://starkware.co/">
+    <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
+  </a>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/seanjameshan/starkops/main/img/demo.gif" alt="demo" />
 </p>
