@@ -71,11 +71,11 @@ async function main() {
         try {
           // check for artifacts folder
           if (!fs.existsSync(artifactsDirectory)) {
-            ui.log.write(`📂  Artifacts folder not found, creating...\n`);
+            ui.log.write(`📂 Artifacts folder not found, creating...\n`);
             fs.mkdirSync(artifactsDirectory);
             ui.log.write(`✅ /artifacts folder created.\n\n`);
           } else {
-            ui.log.write(`📂  Artifacts folder found!\n\n`);
+            ui.log.write(`📂 Artifacts folder found!\n\n`);
           }
 
           contracts.forEach((contract: string) => {
@@ -84,24 +84,24 @@ async function main() {
             const fileBase = path.parse(filePath).base;
 
             // compile
-            ui.log.write(`🔮  Compiling ${fileBase}...\n`);
+            ui.log.write(`🔮 Compiling ${fileBase}...\n`);
             execSync(
               `starknet-compile ${contract} --output ${artifactsDirectory}/${fileName}_compiled.json --abi ${artifactsDirectory}/${fileName}_abi.json`
             );
             ui.log.write(`✅ ${fileBase} compiled.\n\n`);
           });
           ui.log.write(
-            `✅  Successfully compiled cario programs in ${artifactsDirectory}!\n`
+            `✅ Successfully compiled cario programs in ${artifactsDirectory}!\n`
           );
         } catch (error) {
-          ui.log.write(`❌  ${error}`);
+          ui.log.write(`❌ ${error}`);
         } finally {
           process.exit();
         }
       });
   } else {
     ui.log.write(
-      `🔍  Could not find cairo programs in this directory: ${__dirname}.\n`
+      `🔍 Could not find cairo programs in this directory: ${__dirname}.\n`
     );
     process.exit();
   }
