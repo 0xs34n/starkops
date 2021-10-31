@@ -71,11 +71,11 @@ async function main() {
         try {
           // check for artifacts folder
           if (!fs.existsSync(artifactsDirectory)) {
-            ui.log.write(`📂 Artifacts folder not found, creating...\n`);
+            ui.log.write(`📂 /artifacts folder not found, creating...\n`);
             fs.mkdirSync(artifactsDirectory);
             ui.log.write(`✅ /artifacts folder created.\n\n`);
           } else {
-            ui.log.write(`📂 Artifacts folder found!\n\n`);
+            ui.log.write(`📂 /artifacts folder found!\n\n`);
           }
 
           contracts.forEach((contract: string) => {
