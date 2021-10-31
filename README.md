@@ -6,7 +6,7 @@
 <!-- tag line -->
 <h4 align='center'> StarkNet Toolchain CLI written in TypeScript.</h4>
 
-![demo](https://raw.githubusercontent.com/seanjameshan/starkops/main/demo.mov)
+![demo](https://raw.githubusercontent.com/seanjameshan/starkops/main/img/demo.gif)
 
 ## Getting Started
 
